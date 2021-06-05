@@ -32,8 +32,8 @@ static void usage(const char *execname) {
             << "  -h:       This help message." << std::endl
             << "  -n <num>: Number of results." << std::endl
             << "  -s:       Sort by largest package size." << std::endl
-            << "  -t:       Sort by package most recent use" << std::endl
-            << "  -T:       Sort by package least recent use" << std::endl;
+            << "  -t:       Sort by package most recently used." << std::endl
+            << "  -T:       Sort by package least recently used." << std::endl;
 }
 
 static void scan(fs::path root, int nResults, SortType sort) {
